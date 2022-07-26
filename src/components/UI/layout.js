@@ -6,8 +6,8 @@ import GlobalStyle from "./GlobalStyle";
 import lightTheme from "themes/light.json";
 import darkTheme from "themes/dark.json";
 
-import Header from "components/UI/header";
-import Footer from "components/UI/footer";
+import Header from "components/header";
+import Footer from "components/footer";
 
 export default function Layout({ children }) {
     const [isLight, setIsLight] = useState(true);
